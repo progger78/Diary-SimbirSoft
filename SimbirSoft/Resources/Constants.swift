@@ -8,14 +8,21 @@
 import UIKit
 
 enum Constants {
-
     enum Colors {
         static let active: UIColor = .link
         static let inactive: UIColor = .lightGray
         static let red: UIColor = .red
     }
-    enum Strings {
-        enum AddTask {
+enum Strings {
+        enum Calendar {
+            static let navBarTitle = "Simbirsoft Diary"
+        }
+enum PopUpWindow {
+        static let startTaskDate = "Время начала дела:"
+        static let finishTaskDate = "Время окончания дела:"
+        static let taskDescription = "Описание дела:"
+    }
+enum AddTask {
             static let nameLabel = "Наименование:"
             static let descriptionLabel = "Описанине:"
             static let namePlaceholder = "Назовите задачу"
@@ -25,7 +32,7 @@ enum Constants {
             static let addTaskButton = "Добавить задачу"
         }
     }
-    enum Images {
+enum Images {
         enum Common {
             static let addButton = UIImage(systemName: "plus")
         }

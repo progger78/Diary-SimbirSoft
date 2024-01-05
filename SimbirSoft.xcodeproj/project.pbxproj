@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63791FA02B4560B10004B169 /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63791F9F2B4560B10004B169 /* Applications.swift */; };
+		63791FA02B4560B10004B169 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63791F9F2B4560B10004B169 /* Constants.swift */; };
 		63791FA22B4569DE0004B169 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63791FA12B4569DE0004B169 /* TextField+Extension.swift */; };
 		CE758B0D2B45A65F00289FFF /* NotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE758B0C2B45A65F00289FFF /* NotificationName+Extension.swift */; };
 		CE758B102B45AD7E00289FFF /* PopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE758B0F2B45AD7E00289FFF /* PopUpWindow.swift */; };
@@ -52,7 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63791F9F2B4560B10004B169 /* Applications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applications.swift; sourceTree = "<group>"; };
+		63791F9F2B4560B10004B169 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		63791FA12B4569DE0004B169 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
 		A05E531DE713ECB36AE82F0F /* Pods-SimbirSoft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirSoft.debug.xcconfig"; path = "Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft.debug.xcconfig"; sourceTree = "<group>"; };
 		CE758B0C2B45A65F00289FFF /* NotificationName+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+Extension.swift"; sourceTree = "<group>"; };
@@ -203,7 +203,7 @@
 		CEAF88962B44360000AF6703 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				63791F9F2B4560B10004B169 /* Applications.swift */,
+				63791F9F2B4560B10004B169 /* Constants.swift */,
 				CEAF88662B44354200AF6703 /* AppDelegate.swift */,
 				CEAF88682B44354200AF6703 /* SceneDelegate.swift */,
 				CEAF886F2B44354300AF6703 /* Assets.xcassets */,
@@ -383,7 +383,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					CEAF88622B44354200AF6703 = {
 						CreatedOnToolsVersion = 14.3;
@@ -528,7 +528,7 @@
 				CEAF88A32B4437D800AF6703 /* Date+Extension.swift in Sources */,
 				CEAF88A72B443A5C00AF6703 /* EventModel.swift in Sources */,
 				CEAF88A52B4438A800AF6703 /* TaskModel.swift in Sources */,
-				63791FA02B4560B10004B169 /* Applications.swift in Sources */,
+				63791FA02B4560B10004B169 /* Constants.swift in Sources */,
 				CEAF88AE2B443E7B00AF6703 /* IDCreator.swift in Sources */,
 				CEAF88B52B44442F00AF6703 /* DataProvider.swift in Sources */,
 			);

@@ -66,7 +66,7 @@ final class PopUpView: UIView {
         let button = UIButton()
         button.setTitleColor(UIColor.white, for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 20.0, weight: .regular)
-        button.backgroundColor = Resources.Colors.active
+        button.backgroundColor = Constants.Colors.active
         button.layer.cornerRadius = 18
         button.setTitle("Ok", for: .normal)
         return button
@@ -89,11 +89,12 @@ extension PopUpView {
     }
     func configureView(taskTitle: String, startDate: String, finishDate: String, text: String) {
         self.taskTitle.text = taskTitle
-        startDateTitle.text = "Дата начала дела:\n\(startDate)"
-        finishDateTitle.text = "Дата окончания дела:\n\(finishDate)"
-        taskDescription.text = "Описание дела:\n\(text)"
+        startDateTitle.text = "\(Constants.Strings.PopUpWindow.startTaskDate)\n\(startDate)"
+        finishDateTitle.text = "\(Constants.Strings.PopUpWindow.finishTaskDate)\n\(finishDate)"
+        taskDescription.text = "\(Constants.Strings.PopUpWindow.taskDescription)\n\(text)"
     }
     func layoutViews() {
+
         let standartInset = 16
         contentView.snp.makeConstraints {
             $0.width.equalTo(340)

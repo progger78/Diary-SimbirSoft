@@ -22,7 +22,7 @@ final class AddTaskView: UIView {
 
     private lazy var taskNameLabel: UILabel = {
         let label = UILabel()
-        label.text = Resources.Strings.AddTask.nameLabel
+        label.text = Constants.Strings.AddTask.nameLabel
         label.textAlignment = .left
         label.numberOfLines = .zero
         label.lineBreakMode = NSLineBreakMode.byWordWrapping
@@ -31,7 +31,7 @@ final class AddTaskView: UIView {
 
     private lazy var descriptionLabel: UILabel = {
         let label = UILabel()
-        label.text = Resources.Strings.AddTask.descriptionLabel
+        label.text = Constants.Strings.AddTask.descriptionLabel
         label.textAlignment = .left
         label.numberOfLines = .zero
         label.lineBreakMode = NSLineBreakMode.byWordWrapping
@@ -40,7 +40,7 @@ final class AddTaskView: UIView {
 
     private lazy var startLabel: UILabel = {
         let label = UILabel()
-        label.text = Resources.Strings.AddTask.startDate
+        label.text = Constants.Strings.AddTask.startDate
         label.textAlignment = .left
         label.numberOfLines = .zero
         label.lineBreakMode = NSLineBreakMode.byWordWrapping
@@ -49,7 +49,7 @@ final class AddTaskView: UIView {
 
     private lazy var finishLabel: UILabel = {
         let label = UILabel()
-        label.text = Resources.Strings.AddTask.finishDate
+        label.text = Constants.Strings.AddTask.finishDate
         label.textAlignment = .left
         label.numberOfLines = .zero
         label.lineBreakMode = NSLineBreakMode.byWordWrapping
@@ -59,7 +59,7 @@ final class AddTaskView: UIView {
     private lazy var nameTextField: UITextField = {
         let textField = TextFieldWithPadding()
         textField.textPadding = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 0)
-        textField.placeholder = Resources.Strings.AddTask.namePlaceholder
+        textField.placeholder = Constants.Strings.AddTask.namePlaceholder
         textField.layer.borderColor = UIColor.gray.cgColor
         textField.layer.borderWidth = 1.0
         textField.layer.cornerRadius = 5.0
@@ -70,7 +70,7 @@ final class AddTaskView: UIView {
     private lazy var descriptionTextField: UITextField = {
         let textField = TextFieldWithPadding()
         textField.textPadding = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 0)
-        textField.placeholder = Resources.Strings.AddTask.descriptionPlaceholder
+        textField.placeholder = Constants.Strings.AddTask.descriptionPlaceholder
         textField.layer.borderColor = UIColor.gray.cgColor
         textField.layer.borderWidth = 1.0
         textField.layer.cornerRadius = 5.0
@@ -97,12 +97,12 @@ final class AddTaskView: UIView {
     private lazy var addTaskButton: UIButton = {
         let button = UIButton(type: .system)
         button.addTarget(self, action: #selector(addTaskButtonTapped), for: .touchUpInside)
-        button.backgroundColor = Resources.Colors.inactive
+        button.backgroundColor = Constants.Colors.inactive
         button.setTitleColor(.white, for: .normal)
         button.layer.cornerRadius = 8
-        button.setImage(Resources.Images.Common.addButton, for: .normal)
+        button.setImage(Constants.Images.Common.addButton, for: .normal)
         button.tintColor = .white
-        button.setTitle(Resources.Strings.AddTask.addTaskButton, for: .normal)
+        button.setTitle(Constants.Strings.AddTask.addTaskButton, for: .normal)
         button.isEnabled = false
         return button
     }()
@@ -223,10 +223,10 @@ extension AddTaskView: UITextFieldDelegate {
         switch (!nameText.isEmpty, !descriptionText.isEmpty) {
         case (true, true):
             addTaskButton.isEnabled = true
-            addTaskButton.backgroundColor = Resources.Colors.active
+            addTaskButton.backgroundColor = Constants.Colors.active
         default:
             addTaskButton.isEnabled = false
-            addTaskButton.backgroundColor = Resources.Colors.inactive
+            addTaskButton.backgroundColor = Constants.Colors.inactive
         }
     }
 }

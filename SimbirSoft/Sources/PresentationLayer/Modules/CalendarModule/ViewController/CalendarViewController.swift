@@ -8,11 +8,6 @@
 import UIKit
 import CalendarKit
 
-private enum Constants {
-
-    static let titleText = "Simbirsoft"
-}
-
 final class CalendarViewController: DayViewController {
 
     private let viewModel: CalendarViewModelProtocol
@@ -62,7 +57,7 @@ final class CalendarViewController: DayViewController {
 
 private extension CalendarViewController {
     func initialSetup() {
-        title = Constants.titleText
+        title = Constants.Strings.Calendar.navBarTitle
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.backgroundColor = .systemBackground
         navigationController?.navigationBar.tintColor = .black
