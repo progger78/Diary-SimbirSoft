@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63791FA02B4560B10004B169 /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63791F9F2B4560B10004B169 /* Applications.swift */; };
+		63791FA22B4569DE0004B169 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63791FA12B4569DE0004B169 /* TextField+Extension.swift */; };
+		CE758B0D2B45A65F00289FFF /* NotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE758B0C2B45A65F00289FFF /* NotificationName+Extension.swift */; };
+		CE758B102B45AD7E00289FFF /* PopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE758B0F2B45AD7E00289FFF /* PopUpWindow.swift */; };
+		CE758B122B45B2C500289FFF /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE758B112B45B2C500289FFF /* PopUpView.swift */; };
+		CEAF88672B44354200AF6703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88662B44354200AF6703 /* AppDelegate.swift */; };
+		CEAF88692B44354200AF6703 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88682B44354200AF6703 /* SceneDelegate.swift */; };
+		CEAF886B2B44354200AF6703 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF886A2B44354200AF6703 /* CalendarViewController.swift */; };
+		CEAF88702B44354300AF6703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAF886F2B44354300AF6703 /* Assets.xcassets */; };
+		CEAF88732B44354300AF6703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAF88712B44354300AF6703 /* LaunchScreen.storyboard */; };
+		CEAF889E2B44369400AF6703 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF889D2B44369400AF6703 /* CalendarViewModel.swift */; };
+		CEAF88A02B44369E00AF6703 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF889F2B44369E00AF6703 /* ModuleBuilder.swift */; };
+		CEAF88A32B4437D800AF6703 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88A22B4437D800AF6703 /* Date+Extension.swift */; };
+		CEAF88A52B4438A800AF6703 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88A42B4438A800AF6703 /* TaskModel.swift */; };
+		CEAF88A72B443A5C00AF6703 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88A62B443A5C00AF6703 /* EventModel.swift */; };
+		CEAF88AC2B443C6B00AF6703 /* EventAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88AB2B443C6B00AF6703 /* EventAdapter.swift */; };
+		CEAF88AE2B443E7B00AF6703 /* IDCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88AD2B443E7B00AF6703 /* IDCreator.swift */; };
+		CEAF88B02B4440E700AF6703 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88AF2B4440E700AF6703 /* URL+Extensions.swift */; };
+		CEAF88B22B44422A00AF6703 /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88B12B44422A00AF6703 /* ViewController+Extensions.swift */; };
+		CEAF88B52B44442F00AF6703 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88B42B44442F00AF6703 /* DataProvider.swift */; };
+		CEAF88B72B44451300AF6703 /* JsonHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88B62B44451300AF6703 /* JsonHandler.swift */; };
+		CEAF88BE2B4458C500AF6703 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88BD2B4458C500AF6703 /* AddTaskView.swift */; };
+		CEAF88C02B4458CA00AF6703 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88BF2B4458CA00AF6703 /* AddTaskViewController.swift */; };
+		CEAF88C52B445F7000AF6703 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF88C42B445F7000AF6703 /* UIView+Extensions.swift */; };
+		E3C88ACF95F93B322AE55420 /* Pods_SimbirSoft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57C6D36F21C0498454318A9 /* Pods_SimbirSoft.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEAF887A2B44354300AF6703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAF885B2B44354200AF6703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAF88622B44354200AF6703;
+			remoteInfo = SimbirSoft;
+		};
+		CEAF88842B44354300AF6703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAF885B2B44354200AF6703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAF88622B44354200AF6703;
+			remoteInfo = SimbirSoft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63791F9F2B4560B10004B169 /* Applications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applications.swift; sourceTree = "<group>"; };
+		63791FA12B4569DE0004B169 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		A05E531DE713ECB36AE82F0F /* Pods-SimbirSoft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirSoft.debug.xcconfig"; path = "Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft.debug.xcconfig"; sourceTree = "<group>"; };
+		CE758B0C2B45A65F00289FFF /* NotificationName+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+Extension.swift"; sourceTree = "<group>"; };
+		CE758B0F2B45AD7E00289FFF /* PopUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWindow.swift; sourceTree = "<group>"; };
+		CE758B112B45B2C500289FFF /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		CEAF88632B44354200AF6703 /* SimbirSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimbirSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAF88662B44354200AF6703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEAF88682B44354200AF6703 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEAF886A2B44354200AF6703 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		CEAF886F2B44354300AF6703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEAF88722B44354300AF6703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEAF88742B44354300AF6703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAF88792B44354300AF6703 /* SimbirSoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimbirSoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAF88832B44354300AF6703 /* SimbirSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimbirSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAF889D2B44369400AF6703 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		CEAF889F2B44369E00AF6703 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		CEAF88A22B4437D800AF6703 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		CEAF88A42B4438A800AF6703 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		CEAF88A62B443A5C00AF6703 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		CEAF88AB2B443C6B00AF6703 /* EventAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAdapter.swift; sourceTree = "<group>"; };
+		CEAF88AD2B443E7B00AF6703 /* IDCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDCreator.swift; sourceTree = "<group>"; };
+		CEAF88AF2B4440E700AF6703 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		CEAF88B12B44422A00AF6703 /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
+		CEAF88B42B44442F00AF6703 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		CEAF88B62B44451300AF6703 /* JsonHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonHandler.swift; sourceTree = "<group>"; };
+		CEAF88BD2B4458C500AF6703 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		CEAF88BF2B4458CA00AF6703 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		CEAF88C42B445F7000AF6703 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		D57C6D36F21C0498454318A9 /* Pods_SimbirSoft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimbirSoft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7EBDE9483B5F85DD8EEF4EE /* Pods-SimbirSoft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirSoft.release.xcconfig"; path = "Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAF88602B44354200AF6703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C88ACF95F93B322AE55420 /* Pods_SimbirSoft.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAF88762B44354300AF6703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAF88802B44354300AF6703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DB143A54550AA1A9DB336B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A05E531DE713ECB36AE82F0F /* Pods-SimbirSoft.debug.xcconfig */,
+				D7EBDE9483B5F85DD8EEF4EE /* Pods-SimbirSoft.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90D5B7969C1D1B8A20CE5382 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D57C6D36F21C0498454318A9 /* Pods_SimbirSoft.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE758B0E2B45AD7200289FFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE758B132B45B32600289FFF /* PopUp */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE758B132B45B32600289FFF /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				CE758B0F2B45AD7E00289FFF /* PopUpWindow.swift */,
+				CE758B112B45B2C500289FFF /* PopUpView.swift */,
+			);
+			path = PopUp;
+			sourceTree = "<group>";
+		};
+		CE758B142B45BD9700289FFF /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF88B42B44442F00AF6703 /* DataProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		CE758B152B45BDA500289FFF /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE758B0E2B45AD7200289FFF /* Views */,
+				CE758B162B45BF3900289FFF /* Modules */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		CE758B162B45BF3900289FFF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF88982B44363F00AF6703 /* CalendarModule */,
+				CEAF88BA2B44570A00AF6703 /* AddTaskModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CEAF885A2B44354200AF6703 = {
+			isa = PBXGroup;
+			children = (
+				CEAF88652B44354200AF6703 /* SimbirSoft */,
+				CEAF88642B44354200AF6703 /* Products */,
+				22DB143A54550AA1A9DB336B /* Pods */,
+				90D5B7969C1D1B8A20CE5382 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAF88642B44354200AF6703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF88632B44354200AF6703 /* SimbirSoft.app */,
+				CEAF88792B44354300AF6703 /* SimbirSoftTests.xctest */,
+				CEAF88832B44354300AF6703 /* SimbirSoftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAF88652B44354200AF6703 /* SimbirSoft */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF88972B44362500AF6703 /* Sources */,
+				CEAF88962B44360000AF6703 /* Resources */,
+			);
+			path = SimbirSoft;
+			sourceTree = "<group>";
+		};
+		CEAF88962B44360000AF6703 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63791F9F2B4560B10004B169 /* Applications.swift */,
+				CEAF88662B44354200AF6703 /* AppDelegate.swift */,
+				CEAF88682B44354200AF6703 /* SceneDelegate.swift */,
+				CEAF886F2B44354300AF6703 /* Assets.xcassets */,
+				CEAF88712B44354300AF6703 /* LaunchScreen.storyboard */,
+				CEAF88742B44354300AF6703 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEAF88972B44362500AF6703 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF889B2B44367600AF6703 /* Models */,
+				CEAF88A12B4437CE00AF6703 /* ServiceLayer */,
+				CE758B152B45BDA500289FFF /* PresentationLayer */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CEAF88982B44363F00AF6703 /* CalendarModule */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF889A2B44366A00AF6703 /* ViewModel */,
+				CEAF88992B44365F00AF6703 /* ViewController */,
+			);
+			path = CalendarModule;
+			sourceTree = "<group>";
+		};
+		CEAF88992B44365F00AF6703 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF886A2B44354200AF6703 /* CalendarViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEAF889A2B44366A00AF6703 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF889D2B44369400AF6703 /* CalendarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CEAF889B2B44367600AF6703 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF88A42B4438A800AF6703 /* TaskModel.swift */,
+				CEAF88A62B443A5C00AF6703 /* EventModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEAF889C2B44368200AF6703 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF889F2B44369E00AF6703 /* ModuleBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		CEAF88A12B4437CE00AF6703 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF889C2B44368200AF6703 /* Builder */,
+				CE758B142B45BD9700289FFF /* Providers */,
+				CEAF88B32B4443E500AF6703 /* Extensions */,
+				CEAF88AB2B443C6B00AF6703 /* EventAdapter.swift */,
+				CEAF88AD2B443E7B00AF6703 /* IDCreator.swift */,
+				CEAF88B62B44451300AF6703 /* JsonHandler.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		CEAF88B32B4443E500AF6703 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF88A22B4437D800AF6703 /* Date+Extension.swift */,
+				CEAF88B12B44422A00AF6703 /* ViewController+Extensions.swift */,
+				CEAF88AF2B4440E700AF6703 /* URL+Extensions.swift */,
+				CEAF88C42B445F7000AF6703 /* UIView+Extensions.swift */,
+				63791FA12B4569DE0004B169 /* TextField+Extension.swift */,
+				CE758B0C2B45A65F00289FFF /* NotificationName+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEAF88BA2B44570A00AF6703 /* AddTaskModule */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF88BC2B4458BD00AF6703 /* View */,
+				CEAF88BB2B4458B600AF6703 /* ViewController */,
+			);
+			path = AddTaskModule;
+			sourceTree = "<group>";
+		};
+		CEAF88BB2B4458B600AF6703 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF88BF2B4458CA00AF6703 /* AddTaskViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEAF88BC2B4458BD00AF6703 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF88BD2B4458C500AF6703 /* AddTaskView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAF88622B44354200AF6703 /* SimbirSoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAF888D2B44354300AF6703 /* Build configuration list for PBXNativeTarget "SimbirSoft" */;
+			buildPhases = (
+				6315F9672B48016500B719CB /* ShellScript */,
+				ACDD32AEDB1BBB36DD18EB1B /* [CP] Check Pods Manifest.lock */,
+				CEAF885F2B44354200AF6703 /* Sources */,
+				CEAF88602B44354200AF6703 /* Frameworks */,
+				CEAF88612B44354200AF6703 /* Resources */,
+				7F88D753233351F1AAB80164 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimbirSoft;
+			productName = SimbirSoft;
+			productReference = CEAF88632B44354200AF6703 /* SimbirSoft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEAF88782B44354300AF6703 /* SimbirSoftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAF88902B44354300AF6703 /* Build configuration list for PBXNativeTarget "SimbirSoftTests" */;
+			buildPhases = (
+				CEAF88752B44354300AF6703 /* Sources */,
+				CEAF88762B44354300AF6703 /* Frameworks */,
+				CEAF88772B44354300AF6703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAF887B2B44354300AF6703 /* PBXTargetDependency */,
+			);
+			name = SimbirSoftTests;
+			productName = SimbirSoftTests;
+			productReference = CEAF88792B44354300AF6703 /* SimbirSoftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEAF88822B44354300AF6703 /* SimbirSoftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAF88932B44354300AF6703 /* Build configuration list for PBXNativeTarget "SimbirSoftUITests" */;
+			buildPhases = (
+				CEAF887F2B44354300AF6703 /* Sources */,
+				CEAF88802B44354300AF6703 /* Frameworks */,
+				CEAF88812B44354300AF6703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAF88852B44354300AF6703 /* PBXTargetDependency */,
+			);
+			name = SimbirSoftUITests;
+			productName = SimbirSoftUITests;
+			productReference = CEAF88832B44354300AF6703 /* SimbirSoftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAF885B2B44354200AF6703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CEAF88622B44354200AF6703 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CEAF88782B44354300AF6703 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CEAF88622B44354200AF6703;
+					};
+					CEAF88822B44354300AF6703 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CEAF88622B44354200AF6703;
+					};
+				};
+			};
+			buildConfigurationList = CEAF885E2B44354200AF6703 /* Build configuration list for PBXProject "SimbirSoft" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEAF885A2B44354200AF6703;
+			productRefGroup = CEAF88642B44354200AF6703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAF88622B44354200AF6703 /* SimbirSoft */,
+				CEAF88782B44354300AF6703 /* SimbirSoftTests */,
+				CEAF88822B44354300AF6703 /* SimbirSoftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAF88612B44354200AF6703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAF88732B44354300AF6703 /* LaunchScreen.storyboard in Resources */,
+				CEAF88702B44354300AF6703 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAF88772B44354300AF6703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAF88812B44354300AF6703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6315F9672B48016500B719CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		7F88D753233351F1AAB80164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimbirSoft/Pods-SimbirSoft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACDD32AEDB1BBB36DD18EB1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimbirSoft-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAF885F2B44354200AF6703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE758B102B45AD7E00289FFF /* PopUpWindow.swift in Sources */,
+				63791FA22B4569DE0004B169 /* TextField+Extension.swift in Sources */,
+				CEAF88B02B4440E700AF6703 /* URL+Extensions.swift in Sources */,
+				CEAF88C02B4458CA00AF6703 /* AddTaskViewController.swift in Sources */,
+				CEAF889E2B44369400AF6703 /* CalendarViewModel.swift in Sources */,
+				CEAF88B72B44451300AF6703 /* JsonHandler.swift in Sources */,
+				CEAF88A02B44369E00AF6703 /* ModuleBuilder.swift in Sources */,
+				CEAF886B2B44354200AF6703 /* CalendarViewController.swift in Sources */,
+				CEAF88C52B445F7000AF6703 /* UIView+Extensions.swift in Sources */,
+				CEAF88B22B44422A00AF6703 /* ViewController+Extensions.swift in Sources */,
+				CEAF88BE2B4458C500AF6703 /* AddTaskView.swift in Sources */,
+				CE758B122B45B2C500289FFF /* PopUpView.swift in Sources */,
+				CE758B0D2B45A65F00289FFF /* NotificationName+Extension.swift in Sources */,
+				CEAF88AC2B443C6B00AF6703 /* EventAdapter.swift in Sources */,
+				CEAF88672B44354200AF6703 /* AppDelegate.swift in Sources */,
+				CEAF88692B44354200AF6703 /* SceneDelegate.swift in Sources */,
+				CEAF88A32B4437D800AF6703 /* Date+Extension.swift in Sources */,
+				CEAF88A72B443A5C00AF6703 /* EventModel.swift in Sources */,
+				CEAF88A52B4438A800AF6703 /* TaskModel.swift in Sources */,
+				63791FA02B4560B10004B169 /* Applications.swift in Sources */,
+				CEAF88AE2B443E7B00AF6703 /* IDCreator.swift in Sources */,
+				CEAF88B52B44442F00AF6703 /* DataProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAF88752B44354300AF6703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAF887F2B44354300AF6703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEAF887B2B44354300AF6703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAF88622B44354200AF6703 /* SimbirSoft */;
+			targetProxy = CEAF887A2B44354300AF6703 /* PBXContainerItemProxy */;
+		};
+		CEAF88852B44354300AF6703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAF88622B44354200AF6703 /* SimbirSoft */;
+			targetProxy = CEAF88842B44354300AF6703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEAF88712B44354300AF6703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAF88722B44354300AF6703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAF888B2B44354300AF6703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEAF888C2B44354300AF6703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEAF888E2B44354300AF6703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05E531DE713ECB36AE82F0F /* Pods-SimbirSoft.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD2G628U2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimbirSoft/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimbirSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEAF888F2B44354300AF6703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EBDE9483B5F85DD8EEF4EE /* Pods-SimbirSoft.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD2G628U2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimbirSoft/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimbirSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEAF88912B44354300AF6703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimbirSoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimbirSoft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimbirSoft";
+			};
+			name = Debug;
+		};
+		CEAF88922B44354300AF6703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimbirSoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimbirSoft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimbirSoft";
+			};
+			name = Release;
+		};
+		CEAF88942B44354300AF6703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimbirSoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimbirSoft;
+			};
+			name = Debug;
+		};
+		CEAF88952B44354300AF6703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimbirSoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimbirSoft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAF885E2B44354200AF6703 /* Build configuration list for PBXProject "SimbirSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAF888B2B44354300AF6703 /* Debug */,
+				CEAF888C2B44354300AF6703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAF888D2B44354300AF6703 /* Build configuration list for PBXNativeTarget "SimbirSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAF888E2B44354300AF6703 /* Debug */,
+				CEAF888F2B44354300AF6703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAF88902B44354300AF6703 /* Build configuration list for PBXNativeTarget "SimbirSoftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAF88912B44354300AF6703 /* Debug */,
+				CEAF88922B44354300AF6703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAF88932B44354300AF6703 /* Build configuration list for PBXNativeTarget "SimbirSoftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAF88942B44354300AF6703 /* Debug */,
+				CEAF88952B44354300AF6703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAF885B2B44354200AF6703 /* Project object */;
+}

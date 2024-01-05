@@ -1,0 +1,36 @@
+disabled_rules:
+    - identifier_name
+    - inclusive_language
+    - unhandled_throwing_task
+    - missing_docs
+    - discouraged_optional_boolean
+    - file_header
+    
+
+opt_in_rules:
+    - prefixed_toplevel_constant
+    - discarded_notification_center_observer
+    - weak_delegate
+
+excluded:
+  - Carthage
+  - Pods
+  - .build
+  
+nesting:
+  type_level: 3
+    
+prefixed_toplevel_constant:
+    only_private: true
+line_length:
+    warning: 220
+    error: 300
+    ignores_comments: true
+    ignores_function_declarations: true
+file_length:
+    warning: 700
+    error: 1200
+function_body_length:
+    warning: 300
+    error: 440
+
