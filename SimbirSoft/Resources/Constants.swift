@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum Resources {
+enum Constants {
 
     enum Colors {
         static let active: UIColor = .link
@@ -27,9 +27,7 @@ enum Resources {
     }
     enum Images {
         enum Common {
-            static let downArrow = UIImage(named: "Arrow")
             static let addButton = UIImage(systemName: "plus")
-            static let deleteButton = UIImage(systemName: "trash")
         }
     }
 
