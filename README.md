@@ -8,5 +8,5 @@
 &emsp; <img src="https://github.com/progger78/Diary-SimbirSoft/assets/102137387/d6ec2d11-58d5-4275-862d-63a8ad030758" width="200" height="400"> <br /> <br />
 ___
 &emsp; :file_folder: ***All the information is kept locally**, that's why you don't lose a track of your tasks and won't have any trouble if you would need to load them from the internet.* <br />
-&emsp; :bulb: *This application has been created with MVVM pattern which in this case might suit better for possible perspectives to extend the scale when needed.* <br />
+&emsp; :bulb: *This application has been created with **MVVM pattern** which in this case might suit better for possible perspectives to extend the scale when needed.* <br />
 &emsp; :heart: **Thanks for your time getting familiar with the project.** :heart:
