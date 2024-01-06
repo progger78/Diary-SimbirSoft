@@ -9,4 +9,4 @@
 ___
 &emsp; :file_folder: ***All the information is kept locally**, that's why you don't lose a track of your tasks and won't have any trouble if you would need to load them from the internet.* <br />
 &emsp; :bulb: *This application has been created with MVVM pattern which in this case might suit better for possible perspectives to extend the scale when needed.* <br />
-&emsp; :heart: Thanks for your time getting familiar with the project. :heart:
+&emsp; :heart: **Thanks for your time getting familiar with the project.** :heart:
